@@ -1,0 +1,7 @@
+mapping:
+  resources:
+    - type: "aws_s3_bucket"
+      risk_patterns:
+        - name: "data-store"
+          categories:
+            - "storage" 
